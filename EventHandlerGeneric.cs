@@ -8,7 +8,11 @@ using static System.Console;
 
 namespace Workshop
 {
-
+    /*The Generic 'event delegate Type (available since .NET 2.0) that uses <T> where
+	'T may be a Type that inherits from (whose base class is) EventArgs is used when
+	you need to pass custom data from the context in which the Event is triggered to the
+	"consumers" of the Event who create EventHandlers for the Event and add those 
+	EventHandlers to the Invocation List of the Event.*/
     class Program
     {
         static void Main(string[] args)
