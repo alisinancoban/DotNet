@@ -31,8 +31,8 @@ namespace Workshop
     }
     class AllTracks
     {
-        //private Song[] allSongs = new Song[10000];
-        private Lazy<Song> allSongs = new Lazy<Song>();
+        private Song[] allSongs = new Song[10000];
+        //private Lazy<Song> allSongs = new Lazy<Song>();
         public AllTracks() { Console.WriteLine("Filling the songs"); }
     }
     class MediaPlayer
