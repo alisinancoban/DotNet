@@ -23,6 +23,7 @@ namespace Workshop
                 try
                 {
                     asm = Assembly.Load(asmName);
+					//asm = Assembly.Load("CarLibrary");
                     DisplayTypesInAssembly(asm);
                 }
                 catch
